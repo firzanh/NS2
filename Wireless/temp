@@ -1,0 +1,12 @@
+set val(chan)	Channel/WirelessChannel		;#Channel Type
+set val(prop)	Propagation/TwoRayGround	;#Radio-Propagation Model
+set val(netif)	Phy/WirelessPhy			;#Network Interface Type
+set val(mac)	Mac/802_11			;#MAC Type
+set val(ifq)	Queue/DropTail/PriQueue		;#Interface Queue Type
+set val(ll)	LL				;#Link Layer Type
+set val(ant)	Antenna/OmniAntenna		;#Antenna model
+set val(ifqlen)	50				;#Max Packet in Ifq
+set val(nn)	2				;#Number of Mobilenodes
+set val(rp)	DSDV				;#Routing Protocol
+set val(x)	500				
+set val(y)	500				
